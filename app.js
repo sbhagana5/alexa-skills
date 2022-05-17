@@ -7,7 +7,7 @@ import bodyParser from "body-parser"
 app.use(verifier)
 app.use(bodyParser.json()); 
 const SKILL_NAME = 'getGreetings'
-const GET_MESSAGE = "hello";
+const GET_MESSAGE = "hello sir";
 const HELP_MESSAGE ='ask me how i am doing '
 const HELP_REPROMPT = 'what can i help you with'
 const STOP_MESSAGE = 'ENJOY THE DAY ... SEE YOU SOON'
